@@ -2,6 +2,6 @@ let exp = document.getElementById("my-heading");
 
 exp.innerHTML = "hello";
 
-function sayhello() {
-  alert("Hello Stranger");
-}
+$("button").click(function() {
+  alert("The paragraph was clicked.");
+});
