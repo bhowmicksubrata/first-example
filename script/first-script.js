@@ -1,4 +1,4 @@
-$("button").click(function() {
+$("#jbutton").click(function() {
   alert("The paragraph was clicked.");
 });
 
@@ -10,3 +10,7 @@ $("h1").click(function() {
 
   console.log("Function completed");
 });
+
+function sayhello() {
+  console.log("button clicked.");
+}
