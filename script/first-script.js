@@ -1,16 +1,18 @@
 $("#jbutton").click(function() {
-  alert("The paragraph was clicked.");
+  alert("'Click Me!' button is clicked.");
+  console.log("'Click Me!' button is clicked.");
 });
 
 $("h1").click(function() {
-  console.log("Function called");
-  alert("The paragraph was clicked.");
-  let exp = document.getElementById("my-heading");
-  exp.innerHTML = "hello";
+  console.log("H1 click called by jQuery.");
+  alert("H1 called by jQuery.");
 
-  console.log("Function completed");
+  let exp = document.getElementById("my-heading");
+  exp.innerHTML = "Hello Stranger";
+
+  console.log("H1 click called completed");
 });
 
 function sayhello() {
-  console.log("button clicked.");
+  console.log("'Say Hello' button clicked.");
 }
