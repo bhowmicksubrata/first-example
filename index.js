@@ -10,3 +10,8 @@ $("h1").click(function() {
 
   console.log("Function completed");
 });
+
+$("button").click(function() {
+  alert("The paragraph was clicked.");
+  console.log("The paragraph was clicked.");
+});
