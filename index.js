@@ -6,4 +6,6 @@ import "./script/first-script.js";
 let exp = document.getElementById("my-heading");
 exp.innerHTML = "hello";
 
-
+$("h1").click(function() {
+  alert("The paragraph was clicked.");
+});
